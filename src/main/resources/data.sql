@@ -10,3 +10,9 @@ insert into user_account (email, display_name, role, created_at) values
 -- LAB 01: Wasze konta (zmieńcie na swoje dane, rola USER)
 -- insert into user_account (email, display_name, role, created_at) values
 --     ('imie.nazwisko@student.merito.pl', 'Imię', 'USER', current_timestamp);
+
+-- LAB 01: konta zespołu GymPass
+insert into user_account (email, display_name, role, created_at) values
+    ('arkadiusz.daszkowski@student.merito.pl', 'Arkadiusz', 'USER', current_timestamp),
+    ('jakub.bujnicki@student.merito.pl',       'Jakub',     'USER', current_timestamp),
+    ('michal.jurecki@student.merito.pl',       'Michał',    'USER', current_timestamp);
